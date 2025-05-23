@@ -2,9 +2,43 @@
 layout: default
 title: "Academic Life"
 ---
+<div class="page-content">
+  <div class="wrapper">
+    <h1>Welcome!</h1>
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Posts" %}
-{% endif %}
+    <div class="custom-box">
+      <h2>About Me</h2>
+      <p>Hi! I’m Julian Correa, a student at Cornell studying Data Science. I'm also a competitive swimmer and content creator.</p>
+    </div>
+
+    <div class="custom-box">
+      <h2>What I Do</h2>
+      <p>I build projects that merge tech and creativity — from interactive dashboards to UGC-style media. Check out some of my work!</p>
+    </div>
+
+    <div class="custom-box">
+      <h2>Connect</h2>
+      <p>You can find me on <a href="https://github.com/juliancorrea1" target="_blank">GitHub</a> or <a href="mailto:julianfernandocorrea@gmail.com">send me an email</a>.</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .custom-box {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+  }
+
+  .wrapper {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+</style>
